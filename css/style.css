@@ -185,12 +185,12 @@ img{
 }
 
 .tel-icon{
-width: 10px;
-height: 16px;
+    width: 10px;
+    height: 16px;
 }
 .tel-icon, .mail-icon{
     margin-right: 10px;
-    stroke: currentColor;
+    fill: currentColor;
 }
 .dark-bg{
     background-color: var(--dark-bg);
@@ -231,22 +231,20 @@ height: 16px;
 
 .specifics-section{
     padding-top: 94px;
-}  
+}
 
-.specifics-icon-list{
-    list-style: none;
+.specifics-block{
+    display: flex;
     align-items: center;
+    justify-content: center;
     margin-bottom: 30px;
-} 
-
-.specifics-icon-item{
     padding: 25px 100px;
     background-color: var(--grey-bg);
     border-radius: 4px;
 }
-
+    
 .specifics-icon{
-    width: 65px;
+    width: 70px;
     height: 70px;
 }
 .specifics-item {
